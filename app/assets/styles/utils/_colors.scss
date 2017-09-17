@@ -1,0 +1,20 @@
+$base-black-color: #000000;
+$base-white-color: #FFFFFF;
+$base-dark-color: #333333;
+
+$base-iris-color: #0D97B7;
+$base-jade-color: #0A89A6;
+$base-alesan-color: #F1C42F;
+$base-gold-spike-color: #90751C;
+
+$base-gray-color: #AAAAAA;
+$base-light-gray-color: #DDDDDD;
+$base-dark-gray-color: #666666;
+
+$base-primary-color: $base-iris-color;
+$base-secondary-color: $base-jade-color;
+
+$color-map: (
+  primary: $base-primary-color,
+  white:   $base-white-color,
+);

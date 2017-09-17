@@ -1,0 +1,39 @@
+@import 'utils/colors';
+
+//Base
+$base-font-size: 14px;
+$base-font-family: OpenSans, sans-serif;
+
+//Colors
+$base-text-color: $base-black-color;
+$base-bg-color: $base-white-color;
+
+//Container
+$base-content-padding: 135px;
+$base-content-full-width: 1170px;
+$base-content-width: $base-content-full-width + ($base-content-padding*2);
+
+//Header Main
+$header-height: 80px;
+
+//Typography
+$typography-map: (
+  default:        $base-font-size,
+  huge:           60px,
+  big:            30px,
+  larger:         28px,
+  large:          22px,
+  medium-large:   20px,
+  medium:         18px,
+  small:          14px,
+  smaller:        13px,
+  smallest:       12px,
+  tiny:           10px
+);
+
+$weight-map: (
+  normal: 400,
+  medium: 500,
+  bold: 700,
+  extra: 800
+);

@@ -1,0 +1,30 @@
+@import 'utils/shared-variables';
+
+$vertical-divider-color: $base-secondary-color;
+
+%list-reset {
+  padding: 0;
+  margin: 0;
+}
+
+%link-transition {
+  transition: color 300ms ease-in-out;
+}
+
+%button-transition {
+  transition: color 300ms ease-in-out,
+    background-color 300ms ease-in-out,
+    border-color 300ms ease-in-out;
+}
+
+%font-icon {
+  // use !important to prevent issues with browser extensions that change fonts
+  font-family: 'myiconfont' !important; /* stylelint-disable-line declaration-no-important */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  @include font-smoothing();
+}

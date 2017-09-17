@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  @include box-sizing(border-box);
+}
+
+html { /* stylelint-disable-line selector-no-type */
+  font-size: $base-font-size;
+}
+
+body { /* stylelint-disable-line selector-no-type */
+  font-family: $base-font-family;
+  color: $base-text-color;
+  position: relative;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: rgba( $base-dark-color, 0.1);
+
+  @include font-smoothing;
+}
